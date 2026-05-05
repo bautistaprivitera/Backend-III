@@ -15,15 +15,26 @@ Incluye tests funcionales, documentación con Swagger y dockerización completa.
 
 ---
 
-## 🌐 Deploy
-
-- 📦 DockerHub: https://hub.docker.com/r/bautiprivitera/backend-iii
-- 💻 GitHub: https://github.com/bautistaprivitera/Backend-III
-
----
-
-## 📦 Instalación local
+## 📁 Estructura del proyecto
 
 ```bash
-npm install
-npm start
+Backend-III/
+├── src/
+│   ├── app.js
+│   ├── server.js
+│   ├── routes/
+│   │   └── adoption.router.js
+│   ├── controllers/
+│   │   └── adoption.controller.js
+│   ├── services/
+│   │   └── adoption.service.js
+│   └── docs/
+│       └── swagger.js
+├── test/
+│   └── adoption.test.js
+├── Dockerfile
+├── .dockerignore
+├── .gitignore
+├── package.json
+├── package-lock.json
+└── README.md
